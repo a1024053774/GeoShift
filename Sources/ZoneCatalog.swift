@@ -97,7 +97,7 @@ enum ZoneCatalog {
     static func administratorScript(identifier: String) -> String? {
         guard isValidIdentifier(identifier) else { return nil }
         return """
-        do shell script "/usr/sbin/systemsetup -settimezone \(identifier)" with administrator privileges with prompt "东八外观需要管理员权限才能切换系统时区。"
+        do shell script "/usr/sbin/systemsetup -settimezone \(identifier)" with administrator privileges with prompt "GeoShift需要管理员权限才能切换系统时区。"
         """
     }
 

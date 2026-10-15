@@ -5,27 +5,31 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh-Hans</string>
 	<key>CFBundleDisplayName</key>
-	<string>东八外观</string>
+	<string>GeoShift</string>
 	<key>CFBundleExecutable</key>
-	<string>DongbaAppearance</string>
+	<string>GeoShift</string>
 	<key>CFBundleIdentifier</key>
 	<string>local.dongba.appearance</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>东八外观</string>
+	<string>GeoShift</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>13.0</string>
+	<string>27.0</string>
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSAppleEventsUsageDescription</key>
-	<string>需要控制「系统事件」，才能按东八区时间切换浅色和深色外观。</string>
+	<string>需要控制「系统事件」，才能按实际时区或手动选择切换浅色和深色外观。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>读取 Mac 系统定位，核对模拟定位及恢复后的实际坐标。</string>
+	<key>NSLocationUsageDescription</key>
+	<string>读取 Mac 系统定位，核对模拟定位及恢复后的实际坐标。</string>
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSPrincipalClass</key>
